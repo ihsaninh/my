@@ -11,11 +11,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "baseUrl": ".",
     "incremental": true,
+    "types": ["@testing-library/jest-dom", "node"],
     "paths": {
-      "@/*": ["./*"]
+      "@/pages/*": ["pages/*"],
+      "@/src/*": ["src/*"],
+      "@/src/data/*": ["src/data/*"],
+      "@/public/*": ["public/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "__tests__/components/sidebar.test.js"],
   "exclude": ["node_modules"]
 }
