@@ -10,7 +10,7 @@ import {
 export const navItems: NavItem[] = [
   { key: 'resume', label: 'Resume', url: '/' },
   { key: 'portfolio', label: 'Portfolio', url: '/portfolio' },
-  { key: 'blog', label: 'Blog', url: '/blog' },
+  // { key: 'blog', label: 'Blog', url: '/blog' },
   { key: 'contact', label: 'Contact', url: '/contact' },
 ];
 
