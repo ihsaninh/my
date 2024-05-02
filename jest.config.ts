@@ -11,8 +11,11 @@ const customJestConfig = {
   // collectCoverageFrom: [
   //   'src/**/*.{js,jsx,ts,tsx}',
   //   'pages/**/*.{js,jsx,ts,tsx}',
+  //   'src/components/**/*.{js,jsx,ts,tsx}',
   //   '!src/data/**',
   //   '!pages/api/**',
+  //   '!src/pages/_document.tsx',
+  //   '!src/pages/_app.tsx',
   // ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testEnvironment: 'jsdom',

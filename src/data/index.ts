@@ -91,26 +91,32 @@ export const aboutData: string[] = [
 
 export const portfolioData: PortfolioItem[] = [
   {
-    title: 'Spesial Untukmu',
-    imageId: require('@/src/assets/images/projects/spesial-untukmu.jpg'),
+    title: 'NewXlife',
+    imageId: require('@/src/assets/images/projects/NewXlife.png'),
     category: 'Web Development',
     categoryId: 'web',
   },
   {
     title: 'Spesial Untukmu',
-    imageId: require('@/src/assets/images/projects/spesial-untukmu.jpg'),
+    imageId: require('@/src/assets/images/projects/SpesialUntukmu.png'),
     category: 'Web Development',
     categoryId: 'web',
   },
   {
-    title: 'Spesial Untukmu',
-    imageId: require('@/src/assets/images/projects/spesial-untukmu.jpg'),
+    title: 'Boost Penjual',
+    imageId: require('@/src/assets/images/projects/BoostPenjual.png'),
     category: 'Mobile Application',
     categoryId: 'mobile',
   },
   {
-    title: 'Spesial Untukmu',
-    imageId: require('@/src/assets/images/projects/spesial-untukmu.jpg'),
+    title: 'XL Prepaid Registrasi',
+    imageId: require('@/src/assets/images/projects/XLPrepaidRegistrasi.png'),
+    category: 'Web Development',
+    categoryId: 'web',
+  },
+  {
+    title: 'Trex',
+    imageId: require('@/src/assets/images/projects/Trex.png'),
     category: 'Mobile Application',
     categoryId: 'mobile',
   },

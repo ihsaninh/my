@@ -79,9 +79,10 @@ export default function Portfolio() {
 
                   <Image
                     src={item.imageId}
-                    alt='spesial-untukmu'
-                    height={100}
-                    width={100}
+                    alt={item.title}
+                    height={200}
+                    width={200}
+                    priority
                   />
                 </figure>
 
