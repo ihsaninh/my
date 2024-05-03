@@ -1,11 +1,12 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Image from 'next/image';
-import { IoEyeOffOutline, IoChevronDown } from 'react-icons/io5';
+import { IoEyeOutline, IoChevronDown } from 'react-icons/io5';
 
 import { PortfolioItem } from '@/src/types';
 import { portfolioCategories, portfolioData } from '@/src/data';
 
 export default function Portfolio() {
+  const selectRef = useRef<HTMLButtonElement>(null);
   const [portfolioItems, setPortfolioItems] =
     useState<PortfolioItem[]>(portfolioData);
   const [activeCategory, setActiveCategory] = useState<string>('all');
@@ -44,7 +45,14 @@ export default function Portfolio() {
         </ul>
 
         <div className='filter-select-box'>
-          <button className='filter-select' data-select>
+          <button
+            className='filter-select'
+            data-select
+            ref={selectRef}
+            onClick={() => {
+              selectRef.current?.classList.toggle('active');
+            }}
+          >
             <div className='select-value' data-selecct-value>
               Select category
             </div>
@@ -59,7 +67,10 @@ export default function Portfolio() {
               <li className='select-item' key={item.categoryId}>
                 <button
                   data-select-item
-                  onClick={() => filterPortfolioItems(item.categoryId)}
+                  onClick={() => {
+                    filterPortfolioItems(item.categoryId)
+                    selectRef.current?.classList.toggle('active');
+                  }}
                 >
                   {item.category}
                 </button>
@@ -74,7 +85,7 @@ export default function Portfolio() {
               <a href='#'>
                 <figure className='project-img'>
                   <div className='project-item-icon-box'>
-                    <IoEyeOffOutline />
+                    <IoEyeOutline />
                   </div>
 
                   <Image
