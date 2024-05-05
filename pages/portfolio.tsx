@@ -82,7 +82,7 @@ export default function Portfolio() {
         <ul className='project-list'>
           {portfolioItems.map((item, key) => (
             <li className='project-item active' key={key}>
-              <a href='#'>
+              <a href={item.link}>
                 <figure className='project-img'>
                   <div className='project-item-icon-box'>
                     <IoEyeOutline />

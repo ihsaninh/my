@@ -3,6 +3,7 @@ import { useState } from 'react';
 import {
   IoChevronDown,
   IoMailOutline,
+  IoLogoLinkedin,
   IoLocationOutline,
   IoLogoFacebook,
   IoLogoTwitter,
@@ -22,7 +23,7 @@ function Sidebar() {
         <div className='avatar-box'>
           <Image
             className='image'
-            src="https://media.licdn.com/dms/image/D5603AQH7ABKyvOUY-g/profile-displayphoto-shrink_800_800/0/1697453913756?e=1716422400&v=beta&t=cUxyEnAW4CSEajVZLorlLBGKvOE4YD83Zs5j9z-XcTM"
+            src='https://media.licdn.com/dms/image/D5603AQH7ABKyvOUY-g/profile-displayphoto-shrink_800_800/0/1697453913756?e=1716422400&v=beta&t=cUxyEnAW4CSEajVZLorlLBGKvOE4YD83Zs5j9z-XcTM'
             alt='Ihsan Nurul Habib'
             width={150}
             height={150}
@@ -64,14 +65,17 @@ function Sidebar() {
 
           <li className='contact-item'>
             <div className='icon-box'>
-              <IoMailOutline />
+              <IoLogoLinkedin />
             </div>
 
             <div className='contact-info'>
-              <p className='contact-title'>Phone</p>
+              <p className='contact-title'>Linkedin</p>
 
-              <a href='tel:+6287822697534' className='contact-link'>
-                +62 (878) 2269-7534
+              <a
+                href='https://www.linkedin.com/in/ihsaninh/'
+                className='contact-link'
+              >
+                in/ihsaninh
               </a>
             </div>
           </li>

@@ -26,6 +26,7 @@ export interface Education {
 export interface PortfolioItem {
   description: string;
   categoryId: string;
+  link: string;
   title: string;
   imageId: string;
 }

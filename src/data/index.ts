@@ -95,30 +95,35 @@ export const portfolioData: PortfolioItem[] = [
     imageId: require('@/src/assets/images/projects/NewXlife.png'),
     description: 'New XLife is the main application that can be a gate for the XL Axiata family. This is where we make the world of work better for you. With Super App',
     categoryId: 'web',
+    link: 'https://www.newxlife.xl.co.id/',
   },
   {
     title: 'Spesial Untukmu',
     imageId: require('@/src/assets/images/projects/SpesialUntukmu.png'),
     description: 'An application that offers surprises when you enter your XL or Axis number. Get exclusive deals and rewards tailored to you',
     categoryId: 'web',
+    link: 'https://spesialuntukmu.xlaxiata.co.id/',
+  },
+  {
+    title: 'XL Prepaid Registrasi',
+    imageId: require('@/src/assets/images/projects/XLPrepaidRegistrasi.png'),
+    description: 'XL Prepaid Registration is a service for registering new XL and Axis numbers using a biometric system.',
+    categoryId: 'web',
+    link: '',
+  },
+  {
+    title: 'Trex',
+    imageId: require('@/src/assets/images/projects/Trex.png'),
+    description: 'Trex is a PPOB application that sells credit, data packages, game topups, and various kinds of bills such as PLN, BPJS, and pay TV.',
+    categoryId: 'mobile',
+    link: '',
   },
   {
     title: 'Boost Penjual',
     imageId: require('@/src/assets/images/projects/BoostPenjual.png'),
     description: 'BoostPenjual is an application that can increase revenue by making you digitally connected to various existing suppliers. That way, you can sell a variety of products including digital products',
     categoryId: 'mobile',
-  },
-  {
-    title: 'XL Prepaid Registrasi',
-    imageId: require('@/src/assets/images/projects/XLPrepaidRegistrasi.png'),
-    description: 'XL Prepaid Registrasi adalah layanan untuk registrasi nomer baru XL dan Axis menggunakan sistem biometrik.',
-    categoryId: 'web',
-  },
-  {
-    title: 'Trex',
-    imageId: require('@/src/assets/images/projects/Trex.png'),
-    description: 'Trex adalah aplikasi PPOB yang menjual pulsa, paket data, topup game, dan berbagai macam iuran seperti PLN, BPJS, dan TV berbayar.',
-    categoryId: 'mobile',
+    link: 'https://play.google.com/store/apps/details?id=com.dialog.boost.merchant.android'
   },
 ];
 
