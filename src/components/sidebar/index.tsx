@@ -25,8 +25,8 @@ function Sidebar() {
             className='image'
             src='https://media.licdn.com/dms/image/D5603AQH7ABKyvOUY-g/profile-displayphoto-shrink_800_800/0/1697453913756?e=1716422400&v=beta&t=cUxyEnAW4CSEajVZLorlLBGKvOE4YD83Zs5j9z-XcTM'
             alt='Ihsan Nurul Habib'
-            width={150}
-            height={150}
+            width={80}
+            height={80}
           />
         </div>
 

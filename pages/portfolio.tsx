@@ -54,7 +54,11 @@ export default function Portfolio() {
             }}
           >
             <div className='select-value' data-selecct-value>
-              Select category
+              {activeCategory === 'all'
+                ? 'Select Category'
+                : activeCategory === 'mobile'
+                ? 'Mobile Application'
+                : 'Web Development'}
             </div>
 
             <div className='select-icon'>
@@ -68,7 +72,7 @@ export default function Portfolio() {
                 <button
                   data-select-item
                   onClick={() => {
-                    filterPortfolioItems(item.categoryId)
+                    filterPortfolioItems(item.categoryId);
                     selectRef.current?.classList.toggle('active');
                   }}
                 >
