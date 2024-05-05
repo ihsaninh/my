@@ -93,31 +93,31 @@ export const portfolioData: PortfolioItem[] = [
   {
     title: 'NewXlife',
     imageId: require('@/src/assets/images/projects/NewXlife.png'),
-    category: 'Web Development',
+    description: 'New XLife is the main application that can be a gate for the XL Axiata family. This is where we make the world of work better for you. With Super App',
     categoryId: 'web',
   },
   {
     title: 'Spesial Untukmu',
     imageId: require('@/src/assets/images/projects/SpesialUntukmu.png'),
-    category: 'Web Development',
+    description: 'An application that offers surprises when you enter your XL or Axis number. Get exclusive deals and rewards tailored to you',
     categoryId: 'web',
   },
   {
     title: 'Boost Penjual',
     imageId: require('@/src/assets/images/projects/BoostPenjual.png'),
-    category: 'Mobile Application',
+    description: 'BoostPenjual is an application that can increase revenue by making you digitally connected to various existing suppliers. That way, you can sell a variety of products including digital products',
     categoryId: 'mobile',
   },
   {
     title: 'XL Prepaid Registrasi',
     imageId: require('@/src/assets/images/projects/XLPrepaidRegistrasi.png'),
-    category: 'Web Development',
+    description: 'XL Prepaid Registrasi adalah layanan untuk registrasi nomer baru XL dan Axis menggunakan sistem biometrik.',
     categoryId: 'web',
   },
   {
     title: 'Trex',
     imageId: require('@/src/assets/images/projects/Trex.png'),
-    category: 'Mobile Application',
+    description: 'Trex adalah aplikasi PPOB yang menjual pulsa, paket data, topup game, dan berbagai macam iuran seperti PLN, BPJS, dan TV berbayar.',
     categoryId: 'mobile',
   },
 ];

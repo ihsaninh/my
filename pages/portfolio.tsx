@@ -91,15 +91,15 @@ export default function Portfolio() {
                   <Image
                     src={item.imageId}
                     alt={item.title}
-                    height={200}
-                    width={200}
+                    height={500}
+                    width={500}
                     priority
                   />
                 </figure>
 
                 <h3 className='project-title'>{item.title}</h3>
 
-                <p className='project-category'>{item.category}</p>
+                <p className='project-category'>{item.description}</p>
               </a>
             </li>
           ))}
