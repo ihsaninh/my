@@ -98,6 +98,13 @@ export const portfolioData: PortfolioItem[] = [
     link: 'https://www.newxlife.xl.co.id/',
   },
   {
+    title: 'XL Prioritas Apply',
+    imageId: require('@/src/assets/images/projects/XLPrioritas.png'),
+    description: 'XL Prioritas apply is a website where you can buy XL Prioritas SIM cards online. There are physical SIM card and eSIM purchases available.',
+    categoryId: 'web',
+    link: 'https://prioritas.xl.co.id/',
+  },
+  {
     title: 'Spesial Untukmu',
     imageId: require('@/src/assets/images/projects/SpesialUntukmu.png'),
     description: 'An application that offers surprises when you enter your XL or Axis number. Get exclusive deals and rewards tailored to you',
